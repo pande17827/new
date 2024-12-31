@@ -40,7 +40,7 @@ def push_changes():
         subprocess.run(["git", "add", "-A"], check=True)
 
         # Commit the changes
-        commit_message = "Auto-push: Added new file"
+        commit_message = " Added new file"
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
         # Push the changes
